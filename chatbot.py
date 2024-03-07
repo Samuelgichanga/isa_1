@@ -4,6 +4,7 @@ import pickle
 import numpy as np
 import nltk
 import random
+nltk.download('stopwords')
 
 model = load_model('chatbot_model.h5')
 
