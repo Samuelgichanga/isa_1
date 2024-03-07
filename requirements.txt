@@ -2,3 +2,4 @@ Flask
 Keras
 numpy
 nltk
+tensorflow
