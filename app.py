@@ -2,7 +2,8 @@
 from flask import Flask, render_template, request
 from chatbot import chatbot_response
 
-app = Flask(__name__)
+app = Flask(__name__
+app = Flask(__name__, template_folder='templates')
 
 @app.route("/")
 def home():
