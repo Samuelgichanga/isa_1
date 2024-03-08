@@ -6,6 +6,7 @@ import nltk
 import random
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('wordnet')
 
 model = load_model('chatbot_model.h5')
 
