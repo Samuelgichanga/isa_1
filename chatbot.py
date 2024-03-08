@@ -5,6 +5,7 @@ import numpy as np
 import nltk
 import random
 nltk.download('stopwords')
+nltk.download('punkt')
 
 model = load_model('chatbot_model.h5')
 
