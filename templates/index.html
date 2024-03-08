@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot</title>
+    <title>iSA_bot</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -97,6 +97,25 @@
             text-align: center;
             font-style: italic;
             margin-bottom: 10px;
+        }
+
+        /* Media queries for smaller screens */
+        @media screen and (max-width: 600px) {
+            body {
+                font-size: 14px; /* Adjust font size for smaller screens */
+            }
+            #userInput, #sendButton {
+                font-size: 14px; /* Adjust input and button font size */
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            body {
+                font-size: 12px; /* Further reduce font size for even smaller screens */
+            }
+            #userInput, #sendButton {
+                font-size: 12px; /* Adjust input and button font size */
+            }
         }
     </style>
 </head>
