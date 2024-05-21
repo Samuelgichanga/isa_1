@@ -22,7 +22,6 @@ constantly==15.1.0
 cssselect==1.1.0
 cymem==2.0.8
 Cython==3.0.6
-daal4py==2023.0.2
 datashape==0.5.4
 distro==1.9.0
 et-xmlfile==1.1.0
