@@ -62,7 +62,6 @@ pmdarima==2.0.4
 preshed==3.0.9
 protobuf==4.23.4
 py4j==0.10.9
-pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
 pyasn1-modules==0.2.8
 pycurl==7.45.1
 pydantic==2.5.3
